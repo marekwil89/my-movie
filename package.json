@@ -1,0 +1,35 @@
+{
+  "name": "my-movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon --exec babel-node app.js --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekwil89/my-movie.git"
+  },
+  "author": "MW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marekwil89/my-movie/issues"
+  },
+  "homepage": "https://github.com/marekwil89/my-movie#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "mysql2": "^1.6.1",
+    "r2": "^2.0.1",
+    "sequelize": "^4.38.0",
+    "sequelize-querystring": "^0.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.3"
+  }
+}
